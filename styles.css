@@ -1,0 +1,127 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+#hero {
+    background-image: url("images/indy.jpeg");
+    background-size: cover;
+    width: 720px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#town-name {
+    width: 225px;
+    background: #1D3557;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 11px;
+    padding: 3px 12px 5px 12px;
+    border-radius: 12px;
+}
+
+#town-desc {
+    width: 412px;
+    background: #457B9D;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 29px 8px 28px;
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+#activities {
+    background: #F1FAEE;
+    height: 343px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+#act-hdr {
+    background: #E63946;
+    color: white;
+    padding: 5px;
+    margin: 18px 75px;
+    border-radius: 12px;
+}
+
+#imgs {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.activity-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+.img-title {
+    width: 183px;
+    height: 32;
+    margin-bottom: 17px;
+}
+
+.img-desc {
+    width: 198px;
+    height: 55px;
+    margin-top: 0px;
+}
+
+#guide {
+    width: 400px;
+    height: 294px;
+    display: flex;
+    margin: 50px 160px;
+    background: #A8DADC;
+    border-radius: 12px;
+    box-shadow: #1D3557 5px 5px;
+}
+
+#quote {
+    width: 189px;
+    height: 71px;
+    margin: 0px;
+    font-style: italic;
+}
+
+#avatar {
+    width: 180px;
+    margin: 23px 7px 23px 13px;
+    border-radius: 12px;
+}
+
+#guide-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
